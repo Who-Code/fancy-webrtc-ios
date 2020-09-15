@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name         = "FancyWebRTC"
 
-    s.version      = "0.0.4"
+    s.version      = "0.0.5"
 
     s.summary      = "A Fancy WebRTC library"
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
-    s.author        = { "Osei Fortune" => "fortune.osei@yahoo.com" }
+    s.author        = { "Robert Keller" => "robertkeller04@gmail.com" }
 
     s.platform     = :ios, "10.0"
 
