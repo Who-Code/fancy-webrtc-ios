@@ -30,7 +30,7 @@ import WebRTC
             return FancyRTCRtpTransceiverDirection.init(direction: _rtpTransceiver.direction)
         }
         set{
-            // _rtpTransceiver.direction = newValue.rtcValue
+            _rtpTransceiver.direction = newValue.rtcValue
         }
     }
     
