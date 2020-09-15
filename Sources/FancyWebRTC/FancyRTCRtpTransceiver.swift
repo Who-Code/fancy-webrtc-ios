@@ -73,6 +73,6 @@ import WebRTC
     
     
     public func stop() {
-        _rtpTransceiver.stop()
+        _rtpTransceiver.stopInternal()
     }
 }

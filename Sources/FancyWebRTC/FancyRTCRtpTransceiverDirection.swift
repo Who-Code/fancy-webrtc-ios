@@ -58,6 +58,10 @@ public enum FancyRTCRtpTransceiverDirection: Int, RawRepresentable {
             self = .SEND_ONLY
         case .sendRecv:
             self = .SEND_RECV
+		case .stopped:
+            self = FancyRTCRtpTransceiverDirection.NONE
+        @unknown default:
+            self = FancyRTCRtpTransceiverDirection.NONE
         }
     }
     
