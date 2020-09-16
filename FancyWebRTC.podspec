@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name         = "FancyWebRTC"
 
-    s.version      = "0.0.9"
+    s.version      = "0.0.10"
 
     s.summary      = "A Fancy WebRTC library"
 
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
 
     s.swift_versions = ['4.0','4.2', '5.0']
 
-    s.dependency 'GoogleWebRTC' , '~> 1.1.29400'
+    s.dependency 'GoogleWebRTC' , '~> 1.1.29024'
   end
