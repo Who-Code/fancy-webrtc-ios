@@ -19,8 +19,8 @@
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSCameraUsageDescription</key>
-		<string>Requires access to camera.</string>
-		<key>NSMicrophoneUsageDescription</key>
-		<string>Requires access to microphone.</string>
+	<string>Requires access to camera.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Requires access to microphone.</string>
 </dict>
 </plist>
