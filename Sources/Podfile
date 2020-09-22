@@ -1,3 +1,8 @@
+project 'FancyWebRTC.xcodeproj'
+workspace 'FancyWebRTC.xcworkspace'
+
+platform :ios, '10.0'
+
 target 'FancyWebRTC' do
    pod 'GoogleWebRTC', '~> 1.1.31999'
 end
