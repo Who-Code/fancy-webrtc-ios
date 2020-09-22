@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
     s.name         = "FancyWebRTC"
 
-    s.version      = "0.0.11"
+    s.version      = "0.1.0"
 
     s.summary      = "A Fancy WebRTC library"
 
