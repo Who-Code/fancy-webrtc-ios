@@ -314,11 +314,11 @@ import WebRTC
                 list.append(FancyRTCIceServer(url: server));
             }
 			*/
-			let defaultIceServers = ["stun:148.251.218.36:3478"]
+			let defaultIceServers = ["stun:teledoc-turn01.converneo.cloud:3478"]
             for url in defaultIceServers {
                 list.append(FancyRTCIceServer(urls: [url]))
             }
-            list.append(FancyRTCIceServer(urls: ["turn:148.251.218.36:3478"], username: "test", credential: "test"))
+            list.append(FancyRTCIceServer(urls: ["turn:teledoc-turn01.converneo.cloud:3478"], username: "test", credential: "test"))
             return list;
         }
     }

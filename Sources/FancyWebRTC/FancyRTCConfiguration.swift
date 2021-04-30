@@ -107,11 +107,11 @@ import WebRTC
     public override init() {
         _configuration = RTCConfiguration()
         super.init()
-		let defaultIceServers = ["stun:148.251.218.36:3478"]
+		let defaultIceServers = ["stun:teledoc-turn01.converneo.cloud:3478"]
         for url in defaultIceServers {
             configuration.iceServers.append(RTCIceServer(urlStrings: [url]))
         }
-        configuration.iceServers.append(RTCIceServer(urlStrings: ["turn:148.251.218.36:3478"], username: "test", credential: "test"))
+        configuration.iceServers.append(RTCIceServer(urlStrings: ["turn:teledoc-turn01.converneo.cloud:3478"], username: "test", credential: "test"))
         print(configuration.iceServers);
 		/*
         let defaultIceServers = ["stun:stun.l.google.com:19302",
